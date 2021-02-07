@@ -35,6 +35,18 @@ def render(current):
 def update(current, game_desc, choice):
     if choice == "":
         return current
+    if choice == "inventory":
+        print(str(player.view_inventory()))
+        option = input("Check Item, Use Item, or Back: ")
+        if option == "check item":
+            item = input("Which item? ")
+            print(item.description)
+        return current
+    if choice == "use item":
+        item = input("Which item would you like to use? ")
+        if item in player.inventory:
+            player.use_item(item)
+            return current
     for i in current["links"]:
         if i["name"] == choice:
             current = find_passage(game_desc, i[pid])
@@ -56,6 +68,10 @@ def main():
   game_desc = load("game.json")
   current = find_passage(game_desc, game_desc["startnode"])
   choice = ""
+  while choice != "quit" and current != {}:
+      current = update(current, game_desc, choice)
+      render(current)
+      choice = get_input(current)
 
 if __name__ == "__main__":
   main()
