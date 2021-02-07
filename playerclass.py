@@ -1,6 +1,6 @@
 class Player():
     '''Holds player information such as HP, inventory, and counters.'''
-    def __init__(self, hp=15, inventory=[], kill_count=0, lost_item_count=0, story_path=set{}):
+    def __init__(self, hp=15, inventory=[], kill_count=0, lost_item_count=0, story_path=set():
         self.hp = hp
         self.inventory = inventory
         self.kc = kill_count
