@@ -6,5 +6,4 @@ class HealthItem:
         self.description = description
         self.heal_points = heal_points
     
-    redBerry = HealthItem("Red Berry", "A round, red berry. Smells sweet, appears to be juicy. Most likely not poisonous.", 1)
-    
+redBerry = HealthItem("Red Berry", "A round, red berry. Smells sweet, appears to be juicy. Most likely not poisonous.", 1)

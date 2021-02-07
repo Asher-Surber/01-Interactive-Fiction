@@ -6,7 +6,7 @@ class LostItem:
         self.description = description
         self.item_number = item_number
 
-    silverLocket = LostItem("Silver Locket", "The fighter dropped this. Inside are paintings of what seems to be a family.", 1)
+silverLocket = LostItem("Silver Locket", "The fighter dropped this. Inside are paintings of what seems to be a family.", 1)
     
-    woolHat = LostItem("Wool Hat", """An old hat made of sheep's wool and dyed blue. Clearly well-worn.
+woolHat = LostItem("Wool Hat", """An old hat made of sheep's wool and dyed blue. Clearly well-worn.
                         It now has twigs and pine needles stuck into it. Perhaps it was a nest?""", 2)

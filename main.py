@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-import sys, os, json, re, playerclass, lostitemclass
+import sys, os, json, re
+import playerclass.py
 assert sys.version_info >= (3,9), "This script requires at least Python 3.9"
 
 # import os,json
@@ -24,7 +25,7 @@ def format_passage(description):
 
 def find_passage(game_desc, pid):
     for p in game_desc["passages"]:
-        if p[pid] == pid:
+        if p["pid"] == pid:
             return p
     return {}
 
@@ -72,7 +73,7 @@ def get_input(current):
 
 
 def main():
-  game_desc = load("game.json")
+  game_desc = load("ADragon'sHoardV2.json")
   current = find_passage(game_desc, game_desc["startnode"])
   choice = ""
   print("Welcome to \"A Dragon's Hoard\"! Enter the letter of the choice you want to progress, or type 'inventory' or 'quit'.")
