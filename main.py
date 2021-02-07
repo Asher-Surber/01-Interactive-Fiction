@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import sys, os, json, re
+import sys, os, json, re, playerclass, lostitemclass
 assert sys.version_info >= (3,9), "This script requires at least Python 3.9"
 
 # import os,json
@@ -45,6 +45,7 @@ def update(current, game_desc, choice):
 def get_input(current):
     choice = input("What will you do? ")
     return choice
+
 
 
 
