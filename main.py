@@ -50,7 +50,7 @@ def update(current, game_desc, choice):
             return current
 
     for i in current["links"]:
-        if i["name"] == choice:
+        if i["letter"] == choice:
             current = find_passage(game_desc, i[pid])
             return current
     print("Invalid choice. Please try again.")
@@ -62,6 +62,7 @@ def update(current, game_desc, choice):
 
 def get_input(current):
     choice = input("What will you do? ")
+    choice = choice.lower().strip()
     return choice
 
 
@@ -74,6 +75,7 @@ def main():
   game_desc = load("game.json")
   current = find_passage(game_desc, game_desc["startnode"])
   choice = ""
+  print("Welcome to \"A Dragon's Hoard\"! Enter the letter of the choice you want to progress, or type 'inventory' or 'quit'.")
   while choice != "quit" and current != {}:
       current = update(current, game_desc, choice)
       render(current)

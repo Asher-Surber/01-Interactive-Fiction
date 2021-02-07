@@ -4,17 +4,20 @@
       "text": "Sunlight warms your face as it flows through the cave, spreading out more and more as daybreak progresses. You slowly, groggily open your eyes with a big yawn. Hoisting yourself onto your feet, you stretch: from a slow roll of your head and bending forward with your front two feet, to flexing and shaking out your wings and extending your back two legs behind. Satisfied, you climb down off of your mountain of treasures to find some breakfast. \n\nOut of the corner of your eye, you see a smaller shadow begin to crawl up next to yours on the wall in front of you.\n\n\n[[Ignore it, my eyes may be playing tricks on me, or maybe a bird landed out front. No cause for concern. -> Breakfast]]\n\n[[No harm in checking it out, I suppose. I'm sure it's probably nothing, but on the off chance I might have a visitor? Of course I'm going to go see. -> Investigating]]\n\n[[I whirl around instantly, baring my teeth, and scour the cave for signs of any intruders. Smoke flows from my nostrils in quick puffs as my belly grows hot with flame. -> Defensive]]",
       "links": [
         {
-          "name": "Ignore it, my eyes may be playing tricks on me, or maybe a bird landed out front. No cause for concern. ",
+          "name": "A:  Ignore it, my eyes may be playing tricks on me, or maybe a bird landed out front. No cause for concern. ",
+          "letter": "A",
           "link": " Breakfast",
           "pid": "2"
         },
         {
-          "name": "No harm in checking it out, I suppose. I'm sure it's probably nothing, but on the off chance I might have a visitor? Of course I'm going to go see. ",
+          "name": "B:  No harm in checking it out, I suppose. I'm sure it's probably nothing, but on the off chance I might have a visitor? Of course I'm going to go see. ",
+          "letter": "B",
           "link": " Investigating",
           "pid": "3"
         },
         {
-          "name": "I whirl around instantly, baring my teeth, and scour the cave for signs of any intruders. Smoke flows from my nostrils in quick puffs as my belly grows hot with flame. ",
+          "name": "C:  I whirl around instantly, baring my teeth, and scour the cave for signs of any intruders. Smoke flows from my nostrils in quick puffs as my belly grows hot with flame. ",
+          "letter": "C",
           "link": " Defensive",
           "pid": "4"
         }
@@ -31,17 +34,20 @@
       "damage": 6,
       "links": [
         {
-          "name": "I let out a powerful roar and then roast the fighter where they stand with a column of white-hot flame. ",
+          "name": "A:  I let out a powerful roar and then roast the fighter where they stand with a column of white-hot flame. ",
+          "letter": "A",
           "link": " Killed Fighter",
           "pid": "5"
         },
         {
-          "name": "I call out to the fighter, telling them I don't want to hurt them. ",
+          "name": "B:  I call out to the fighter, telling them I don't want to hurt them. ",
+          "letter": "B",
           "link": " Talking",
           "pid": "8"
         },
         {
-          "name": "I bare my teeth as a low growl begins in my chest. Seeing the fighter merely adjust their stance and prepare to loose another arrow, I charge at them, hoping they will simply flee. ",
+          "name": "C:  I bare my teeth as a low growl begins in my chest. Seeing the fighter merely adjust their stance and prepare to loose another arrow, I charge at them, hoping they will simply flee. ",
+          "letter": "C",
           "link": " Charge",
           "pid": "6"
         }
@@ -57,17 +63,20 @@
       "text": "\"Who's there?\" you call out, and begin to slowly turn around, so as to not seem threatening. While part of you longed for some company, you quietly hoped that no old friends had decided to pay you a visit today. The den was a mess, there was at least an 80% chance that there wasn't a crumb of food left in the place, that pile of bones from dinner that weekend-\n\"Wha-? Uh, freeze!\"\nAt the mouth of your cave was a human fighter. They were armed with a crossbow, already drawn and locked and aimed at your chest, but they had apparently been caught off guard by something.\n\"Hey, whoah! I don't want a fight!\" You take a step back to emphasize your point.\nThe fighter lowered their weapon slightly, a puzzled look on their face.\n\"You... you don't?... I don't-\"\n\"Hey, what's going on in there?!\" hissed a voice behind the fighter. Must be a whole party out there on the slope. Great.\n\n\n[[Knowing that, backed into a cave as I am, I am not in the position to fight all of them at once, I decide to flee. Let 'em raid my hoard, it's all just stuff anyway. I don't want to kill anyone. I unfurl my wings and leap into the air, flying past the fighter and soaring away under the open sky. -> Flee]]\n\n[[There's more of them. They came to kill me, as they have so many more of my kind. Unprovoked, they must come for combat experience, loot, glory; any number of selfish causes that masquerade as worthy in their society. Their mistake. Only their souls will be leaving this battle. I growl as I can feel the anger bubbling inside me, boiling into flames. -> Killed Fighter]] \n\n[[\"Why are you here?\" I ask calmly, despite the slight tingle of worry buzzing in the back of my mind. I should be more scared, considering I had a crossbow looking to take me out, but this fighter seems to be less interested in attacking now. I want to give them a chance. \"Can I help you with something?\" -> Talking]] ",
       "links": [
         {
-          "name": "Knowing that, backed into a cave as I am, I am not in the position to fight all of them at once, I decide to flee. Let 'em raid my hoard, it's all just stuff anyway. I don't want to kill anyone. I unfurl my wings and leap into the air, flying past the fighter and soaring away under the open sky. ",
+          "name": "A:  Knowing that, backed into a cave as I am, I am not in the position to fight all of them at once, I decide to flee. Let 'em raid my hoard, it's all just stuff anyway. I don't want to kill anyone. I unfurl my wings and leap into the air, flying past the fighter and soaring away under the open sky. ",
+          "letter": "A",
           "link": " Flee",
           "pid": "7"
         },
         {
-          "name": "There's more of them. They came to kill me, as they have so many more of my kind. Unprovoked, they must come for combat experience, loot, glory; any number of selfish causes that masquerade as worthy in their society. Their mistake. Only their souls will be leaving this battle. I growl as I can feel the anger bubbling inside me, boiling into flames. ",
+          "name": "B:  There's more of them. They came to kill me, as they have so many more of my kind. Unprovoked, they must come for combat experience, loot, glory; any number of selfish causes that masquerade as worthy in their society. Their mistake. Only their souls will be leaving this battle. I growl as I can feel the anger bubbling inside me, boiling into flames. ",
+          "letter": "B",
           "link": " Killed Fighter",
           "pid": "5"
         },
         {
-          "name": "\"Why are you here?\" I ask calmly, despite the slight tingle of worry buzzing in the back of my mind. I should be more scared, considering I had a crossbow looking to take me out, but this fighter seems to be less interested in attacking now. I want to give them a chance. \"Can I help you with something?\" ",
+          "name": "C:  \"Why are you here?\" I ask calmly, despite the slight tingle of worry buzzing in the back of my mind. I should be more scared, considering I had a crossbow looking to take me out, but this fighter seems to be less interested in attacking now. I want to give them a chance. \"Can I help you with something?\" ",
+          "letter": "C",
           "link": " Talking",
           "pid": "8"
         }
@@ -84,17 +93,20 @@
       "damage": 2,
       "links": [
         {
-          "name": "They seem intent on fighting. I don't know if I have any other choice but to take them out. Besides, they brought this on themselves, and humans have never done aything to earn the trust of my kind. My growl becomes a roar and I release the fire inside my chest. ",
+          "name": "A:  They seem intent on fighting. I don't know if I have any other choice but to take them out. Besides, they brought this on themselves, and humans have never done aything to earn the trust of my kind. My growl becomes a roar and I release the fire inside my chest. ",
+          "letter": "A",
           "link": " Killed Fighter",
           "pid": "5"
         },
         {
-          "name": "If just seeing me scared them a bit, maybe I can chase them away. I bare my teeth, bow my head until my pointed horns mark my target, and charge with as vicious a roar as I can muster. ",
+          "name": "B:  If just seeing me scared them a bit, maybe I can chase them away. I bare my teeth, bow my head until my pointed horns mark my target, and charge with as vicious a roar as I can muster. ",
+          "letter": "B",
           "link": " Charge",
           "pid": "6"
         },
         {
-          "name": "They seem like they mean business, but I don't think they know what they're getting into. I don't want to kill anyone, but I also don't want to just let them hurt me. Whatever, let them raid my hoard, as long as no one gets hurt. It's all just stuff in the end. I unfurl my wings, and with a powerful leap, I'm soaring out of the cave, looking down upon the fighter. ",
+          "name": "C:  They seem like they mean business, but I don't think they know what they're getting into. I don't want to kill anyone, but I also don't want to just let them hurt me. Whatever, let them raid my hoard, as long as no one gets hurt. It's all just stuff in the end. I unfurl my wings, and with a powerful leap, I'm soaring out of the cave, looking down upon the fighter. ",
+          "letter": "C",
           "link": " Flee",
           "pid": "7"
         }
@@ -110,12 +122,14 @@
       "text": "They have no time to scream before their ashen remains crumble to the cave floor. The pile of coal-black dust is quickly scattered in the soft morning breeze. \"Who's next?\" you snarl, marching to the front of the den. \n\nOutside on the slope you find the rest of the party scattered about, now merely four strong: a human warlock, a dwarf paladin, a druid ranger, and an elf rogue. Some are in shock, others are clearly brimming with fury. \n\nThe human warlock suddenly leaps forth, out of their bush, catching the others off guard. He conjures a longsword that glows purple with ethereal power, and charges at you with an unholy scream of agony.\n\nYou realize you have only two choices now.\n\n[[Take them out -> Kill them all (almost)]]\n[[Flee -> Flee]]",
       "links": [
         {
-          "name": "Take them out ",
+          "name": "A:  Take them out ",
+          "letter": "A",
           "link": " Kill them all (almost)",
           "pid": "11"
         },
         {
-          "name": "Flee ",
+          "name": "B:  Flee ",
+          "letter": "B",
           "link": " Flee",
           "pid": "7"
         }
@@ -132,12 +146,14 @@
       "damage": 1,
       "links": [
         {
-          "name": "The fighter must have dropped this when they tripped. I should go after them to return it before their trail goes cold! ",
+          "name": "A:  The fighter must have dropped this when they tripped. I should go after them to return it before their trail goes cold! ",
+          "letter": "A",
           "link": " Follow",
           "pid": "9"
         },
         {
-          "name": "This must belong to the fighter. Either that, or they looted it off of some poor passerby. I should take a look at it, and then make a plan for returning it. ",
+          "name": "B:  This must belong to the fighter. Either that, or they looted it off of some poor passerby. I should take a look at it, and then make a plan for returning it. ",
+          "letter": "B",
           "link": " Stay",
           "pid": "10"
         }
@@ -153,12 +169,14 @@
       "text": "The morning breeze feels like pure bliss. Nothing better than a sunrise flight...\n\nYou take a glance behind and see that a group has formed in front of your den, seemingly discussing their next move. It's strange that they don't seem to be interested in looting, considering the fact that they attacked a dragon's den.. But you're not one to look a gift horse in the mouth, so you just go back to enjoying the open sky.\n\n\n[[Hey, why not land and see if I can find some food? I've got time to kill anyway. -> Event A]]\n[[I think I'll fly around a little longer and then head back home, make sure everything's alright. -> Return Home]]",
       "links": [
         {
-          "name": "Hey, why not land and see if I can find some food? I've got time to kill anyway. ",
+          "name": "A:  Hey, why not land and see if I can find some food? I've got time to kill anyway. ",
+          "letter": "A",
           "link": " Event A",
           "pid": "16"
         },
         {
-          "name": "I think I'll fly around a little longer and then head back home, make sure everything's alright. ",
+          "name": "B:  I think I'll fly around a little longer and then head back home, make sure everything's alright. ",
+          "letter": "B",
           "link": " Return Home",
           "pid": "14"
         }
@@ -174,12 +192,14 @@
       "text": "\"You- you //don't// want to make me your breakfast?..\"\n\n\"No, not really,\" you say casually. \"But I //would// like to get back to finding my actual breakfast. Are you looking for something, or are you here to \"slay\" me?\" You decide to get straight to the point, keeping your distance and trying to maintain as relaxed a posture as possible.\n\nThe fighter shifted their weight awkwardly, the bow seeming to be growing heavy in their hands. With a shake of their head, they returned the crossbow to its original position and hardened their face. \"We need your head to save my brother. And- and I'm not going to be leaving without it,\"\n\nWell, that's not good.\n\n[[There has to be some other way... Come on, think... -> Offer Help]]\n\n[[I guess it's kill or be killed. Besides, my kind would be much better off with one less human around. -> Killed Fighter]]",
       "links": [
         {
-          "name": "There has to be some other way... Come on, think... ",
+          "name": "A:  There has to be some other way... Come on, think... ",
+          "letter": "A",
           "link": " Offer Help",
           "pid": "20"
         },
         {
-          "name": "I guess it's kill or be killed. Besides, my kind would be much better off with one less human around. ",
+          "name": "B:  I guess it's kill or be killed. Besides, my kind would be much better off with one less human around. ",
+          "letter": "B",
           "link": " Killed Fighter",
           "pid": "5"
         }
