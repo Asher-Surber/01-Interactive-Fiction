@@ -1,0 +1,25 @@
+Original premise: dragon in your typical rpg game. usually dangerous, greedy,
+and the mission objective, right? this one, the player, is not. their hoard is mostly made up
+of lost belongings they find and are unable to return. they hold onto them to protect them
+from unassuming adventurers, hoping that someday they can show the townspeople to their cave
+to claim their belongings. one day, a party of adventurers comes to fight the dragon. though the
+reason depends on choices, one of them drops a silver locket with pictures of family inside,
+and the dragon takes it upon themselves to return it to them. Adventure rpg things ensue.
+eventually, locket returned, townspeople trust the dragon and can claim their lost items,
+townspeople start to see dragons as individuals now, etc. also have beginnings of a story
+behind the adventurer attack and the locket, etc.
+
+
+Bad ending- fight the townspeople, be the evil dragon they all see
+Good ending- return the lost object, trust, show townspeople hoard and let them
+find their lost items
+Neutral ending- return the lost object, maybe anonymously, return home
+
+implementing hp and inventory, so will need to add events, collectibles,
+and flesh out battle scenes
+
+
+good and neutral endings differentiated by how many kills and how many lost
+items returned?    -add kill counter and item counter
+
+if you die, what happens?
