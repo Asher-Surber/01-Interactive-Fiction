@@ -21,9 +21,6 @@ def format_passage(description):
     description = re.sub(r'(\[\[[^\|]*?)\|([^\]]*?\]\])',r'\1->\2',description)
     description = re.sub(r'\[\[([^(->\])]*?)->[^\]]*?\]\]',r'[ \1 ]',description)
     description = re.sub(r'\[\[(.+?)\]\]',r'[ \1 ]',description)
-    # instead of cleaning up the links in the description text, remove them entirely
-    description = re.sub(r'(\[\[[^\|]*?)\|([^\]]*?\]\])',r'\1->\2',description)
-    description = re.sub(r'\[\[([^(->\])]*?)->[^\]]*?\]\]',r'[ \1 ]',description)
     description = re.sub(r'\[\[(.+?)\]\]\n*','',description)
     return description
 
@@ -34,8 +31,8 @@ def find_passage(game_desc, pid):
     return {}
 
 def render(current):
-    print("You have " + str(playerclass.player.hp) + " HP.\n")
     print(format_passage(current["text"]))
+    print("\nYou have " + str(playerclass.player.hp) + " HP.\n")
 
 def update(current, game_desc, choice):
     if choice == "":
@@ -53,12 +50,12 @@ def update(current, game_desc, choice):
             return current
         else:
             return current
-
+    
     for i in current["links"]:
         if i["letter"] == choice:
             current = find_passage(game_desc, i["pid"])
             if "damage" in current:
-                playerclass.player.hp -= current["damage"]
+                playerclass.player.hp -= current["damage"]    
             return current
     print("\nInvalid choice. Please try again.")
 
