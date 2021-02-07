@@ -29,7 +29,7 @@ def find_passage(game_desc, pid):
     return {}
 
 def render(current):
-    print(current["name"])
+    print(str(player.hp))
     print(current["text"])
 
 def update(current, game_desc, choice):
@@ -41,17 +41,23 @@ def update(current, game_desc, choice):
         if option == "check item":
             item = input("Which item? ")
             print(item.description)
-        return current
-    if choice == "use item":
-        item = input("Which item would you like to use? ")
-        if item in player.inventory:
+            return current
+        elif option == "use item":
+            item = input("Which item? ")
             player.use_item(item)
             return current
+        else:
+            return current
+
     for i in current["links"]:
         if i["name"] == choice:
             current = find_passage(game_desc, i[pid])
             return current
     print("Invalid choice. Please try again.")
+
+    if current["damage"]:
+        player.hp -= current["damage"]
+
     return current
 
 def get_input(current):
