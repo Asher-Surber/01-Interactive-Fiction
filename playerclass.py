@@ -22,8 +22,8 @@ class Player():
                 inventory = inventory.remove(item)
                 print("You used the " + item + ". Your HP has been restored to " + hp + ".")
     
-    def view_inventory():
-        return inventory
+    def view_inventory(self):
+        return self.inventory
     
     def kill():
         kill_count += 1

@@ -5,19 +5,19 @@
       "links": [
         {
           "name": "A:  Ignore it, my eyes may be playing tricks on me, or maybe a bird landed out front. No cause for concern. ",
-          "letter": "A",
+          "letter": "a",
           "link": " Breakfast",
           "pid": "2"
         },
         {
           "name": "B:  No harm in checking it out, I suppose. I'm sure it's probably nothing, but on the off chance I might have a visitor? Of course I'm going to go see. ",
-          "letter": "B",
+          "letter": "b",
           "link": " Investigating",
           "pid": "3"
         },
         {
           "name": "C:  I whirl around instantly, baring my teeth, and scour the cave for signs of any intruders. Smoke flows from my nostrils in quick puffs as my belly grows hot with flame. ",
-          "letter": "C",
+          "letter": "c",
           "link": " Defensive",
           "pid": "4"
         }
@@ -35,19 +35,19 @@
       "links": [
         {
           "name": "A:  I let out a powerful roar and then roast the fighter where they stand with a column of white-hot flame. ",
-          "letter": "A",
+          "letter": "a",
           "link": " Killed Fighter",
           "pid": "5"
         },
         {
           "name": "B:  I call out to the fighter, telling them I don't want to hurt them. ",
-          "letter": "B",
+          "letter": "b",
           "link": " Talking",
           "pid": "8"
         },
         {
           "name": "C:  I bare my teeth as a low growl begins in my chest. Seeing the fighter merely adjust their stance and prepare to loose another arrow, I charge at them, hoping they will simply flee. ",
-          "letter": "C",
+          "letter": "c",
           "link": " Charge",
           "pid": "6"
         }
@@ -64,19 +64,19 @@
       "links": [
         {
           "name": "A:  Knowing that, backed into a cave as I am, I am not in the position to fight all of them at once, I decide to flee. Let 'em raid my hoard, it's all just stuff anyway. I don't want to kill anyone. I unfurl my wings and leap into the air, flying past the fighter and soaring away under the open sky. ",
-          "letter": "A",
+          "letter": "a",
           "link": " Flee",
           "pid": "7"
         },
         {
           "name": "B:  There's more of them. They came to kill me, as they have so many more of my kind. Unprovoked, they must come for combat experience, loot, glory; any number of selfish causes that masquerade as worthy in their society. Their mistake. Only their souls will be leaving this battle. I growl as I can feel the anger bubbling inside me, boiling into flames. ",
-          "letter": "B",
+          "letter": "b",
           "link": " Killed Fighter",
           "pid": "5"
         },
         {
           "name": "C:  \"Why are you here?\" I ask calmly, despite the slight tingle of worry buzzing in the back of my mind. I should be more scared, considering I had a crossbow looking to take me out, but this fighter seems to be less interested in attacking now. I want to give them a chance. \"Can I help you with something?\" ",
-          "letter": "C",
+          "letter": "c",
           "link": " Talking",
           "pid": "8"
         }
@@ -94,19 +94,19 @@
       "links": [
         {
           "name": "A:  They seem intent on fighting. I don't know if I have any other choice but to take them out. Besides, they brought this on themselves, and humans have never done aything to earn the trust of my kind. My growl becomes a roar and I release the fire inside my chest. ",
-          "letter": "A",
+          "letter": "a",
           "link": " Killed Fighter",
           "pid": "5"
         },
         {
           "name": "B:  If just seeing me scared them a bit, maybe I can chase them away. I bare my teeth, bow my head until my pointed horns mark my target, and charge with as vicious a roar as I can muster. ",
-          "letter": "B",
+          "letter": "b",
           "link": " Charge",
           "pid": "6"
         },
         {
           "name": "C:  They seem like they mean business, but I don't think they know what they're getting into. I don't want to kill anyone, but I also don't want to just let them hurt me. Whatever, let them raid my hoard, as long as no one gets hurt. It's all just stuff in the end. I unfurl my wings, and with a powerful leap, I'm soaring out of the cave, looking down upon the fighter. ",
-          "letter": "C",
+          "letter": "c",
           "link": " Flee",
           "pid": "7"
         }
@@ -123,13 +123,13 @@
       "links": [
         {
           "name": "A:  Take them out ",
-          "letter": "A",
+          "letter": "a",
           "link": " Kill them all (almost)",
           "pid": "11"
         },
         {
           "name": "B:  Flee ",
-          "letter": "B",
+          "letter": "b",
           "link": " Flee",
           "pid": "7"
         }
@@ -147,13 +147,13 @@
       "links": [
         {
           "name": "A:  The fighter must have dropped this when they tripped. I should go after them to return it before their trail goes cold! ",
-          "letter": "A",
+          "letter": "a",
           "link": " Follow",
           "pid": "9"
         },
         {
           "name": "B:  This must belong to the fighter. Either that, or they looted it off of some poor passerby. I should take a look at it, and then make a plan for returning it. ",
-          "letter": "B",
+          "letter": "b",
           "link": " Stay",
           "pid": "10"
         }
@@ -170,13 +170,13 @@
       "links": [
         {
           "name": "A:  Hey, why not land and see if I can find some food? I've got time to kill anyway. ",
-          "letter": "A",
+          "letter": "a",
           "link": " Event A",
           "pid": "16"
         },
         {
           "name": "B:  I think I'll fly around a little longer and then head back home, make sure everything's alright. ",
-          "letter": "B",
+          "letter": "b",
           "link": " Return Home",
           "pid": "14"
         }
@@ -193,13 +193,13 @@
       "links": [
         {
           "name": "A:  There has to be some other way... Come on, think... ",
-          "letter": "A",
+          "letter": "a",
           "link": " Offer Help",
           "pid": "20"
         },
         {
           "name": "B:  I guess it's kill or be killed. Besides, my kind would be much better off with one less human around. ",
-          "letter": "B",
+          "letter": "b",
           "link": " Killed Fighter",
           "pid": "5"
         }
