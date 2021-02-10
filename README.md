@@ -9,6 +9,6 @@ Python 3.9.1 and Twine 2 (Twison 0.0.1 format)
 None
 
 # Future Development
-Much more story, as well as more items, and implementation of battles and events.
+Much more story, as well as more items, and implementation of levelling, battles, and other events.
 
 # Created By Asher Surber

@@ -23,3 +23,6 @@ good and neutral endings differentiated by how many kills and how many lost
 items returned?    -add kill counter and item counter
 
 if you die, what happens?
+
+
+add levelling
